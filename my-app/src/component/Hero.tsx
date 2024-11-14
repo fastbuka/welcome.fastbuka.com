@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Button } from './botton'
 import Link from 'next/link'
+import TallyFormModal from './TallyFormModal'
 
 export default function Hero() {
   return (
@@ -15,12 +16,9 @@ export default function Hero() {
           digital wallets or local banks. Earn rewards with every
           purchase while saying goodbye to payment delays."
         </p>
-        <Link href="https://tally.so/r/3y0JY0">
-        
-        <Button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-full text-lg">
-          Join our Waitlist
-        </Button>
-        </Link>
+       
+       <TallyFormModal />
+       
       </div>
       
       <div className="md:w-1/2 md:pl-[180px] pt-[50px]">

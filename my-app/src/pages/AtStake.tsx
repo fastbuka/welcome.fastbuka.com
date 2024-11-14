@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Marketing() {
   return (
-    <div className="bg-white min-h-screen flex flex-col lg:flex-row items-center justify-center p-8 lg:p-16">
+    <div className="bg-white min-h-screen flex flex-col lg:flex-row items-center justify-center px-8 py-[100px] lg:p-16">
       <div className="lg:w-1/2 lg:pr-12 mb-8 lg:mb-0">
         <h1 className="text-3xl lg:text-4xl font-bold mb-4">
           What&apos;s at Stake if You Miss Out?

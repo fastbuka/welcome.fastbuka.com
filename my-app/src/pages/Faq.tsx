@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
   
   export default function FastbukaFAQ() {
     return (
-      <div className="p-[50px]">
+      <div className="px-[100px] py-[100px]">
         <h2 className="text-3xl font-bold text-center mb-6">Frequently Asked Questions ?</h2>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">

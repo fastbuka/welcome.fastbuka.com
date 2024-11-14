@@ -4,7 +4,7 @@ import { ClipboardList, FileText, Trophy } from 'lucide-react'
 
 export default function EarlyMember() {
   return (
-    <div className="bg-green-600 text-white min-h-screen flex flex-col items-center justify-center p-8">
+    <div className="bg-green-600 text-white min-h-screen flex flex-col items-center justify-center px-8 py-[100px]">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-4">
           Be an Early Member of FastBuka<br />and Unlock Exclusive Rewards
