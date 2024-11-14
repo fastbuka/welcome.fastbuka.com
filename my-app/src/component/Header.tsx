@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
+import TallyFormModal from "./TallyFormModal"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,13 +50,14 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="flex flex-col space-y-4 pt-4 pb-6">
-              {/* <Link href="/" className="text-gray-700 hover:text-green-600">Home</Link>
+              <Link href="/" className="text-gray-700 hover:text-green-600">Home</Link> 
               <Link href="/" className="text-gray-700 hover:text-green-600">Choose Us</Link>
-              <Link href="/" className="text-gray-700 hover:text-green-600">What's At Stake</Link>
-              <Link href="/about" className="text-gray-700 hover:text-green-600">Do this together</Link> */}
-              <Link href="/" className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 text-center">
+              {/* <Link href="/" className="text-gray-700 hover:text-green-600">What's At Stake</Link>
+              <Link href="/" className="text-gray-700 hover:text-green-600">Do this together</Link> */}
+              {/* <Link href="/" className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 text-center">
                 Get Started
-              </Link>
+              </Link> */}
+              <TallyFormModal />
             </div>
           </div>
         )}
