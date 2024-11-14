@@ -97,10 +97,10 @@ export default function Footer() {
  <span className="block text-sm">Home</span>
 </div>
 
-<div className="text-white text-center opacity-50 cursor-not-allowed">
+{/* <div className="text-white text-center opacity-50 cursor-not-allowed">
  <FaUtensils className="w-8 h-8 mx-auto mb-1" />
  <span className="block text-sm">Menu</span>
-</div>
+</div> */}
 
 <div className="text-white text-center opacity-50 cursor-not-allowed">
  <FaCartArrowDown className="w-8 h-8 mx-auto mb-1" />
