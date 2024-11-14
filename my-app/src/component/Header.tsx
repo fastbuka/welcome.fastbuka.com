@@ -24,9 +24,9 @@ const Header = () => {
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
             <Link href="/" className="text-gray-700 hover:text-green-600">Home</Link>
-            <Link href="/menu" className="text-gray-700 hover:text-green-600">Menu</Link>
-            <Link href="/partner" className="text-gray-700 hover:text-green-600">Partner</Link>
-            <Link href="/about" className="text-gray-700 hover:text-green-600">About Us</Link>
+            <Link href="/WhyUs" className="text-gray-700 hover:text-green-600">Choose Us</Link>
+            <Link href="/AtStake" className="text-gray-700 hover:text-green-600">What's At Stake</Link>
+            <Link href="/Together" className="text-gray-700 hover:text-green-600">Do this together</Link>
            
           </div>
 
@@ -50,10 +50,10 @@ const Header = () => {
           <div className="md:hidden">
             <div className="flex flex-col space-y-4 pt-4 pb-6">
               <Link href="/" className="text-gray-700 hover:text-green-600">Home</Link>
-              <Link href="/menu" className="text-gray-700 hover:text-green-600">Menu</Link>
-              <Link href="/partner" className="text-gray-700 hover:text-green-600">Partner</Link>
-              <Link href="/about" className="text-gray-700 hover:text-green-600">About Us</Link>
-              <Link href="/get-started" className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 text-center">
+              <Link href="/menu" className="text-gray-700 hover:text-green-600">Choose Us</Link>
+              <Link href="/partner" className="text-gray-700 hover:text-green-600">What's At Stake</Link>
+              <Link href="/about" className="text-gray-700 hover:text-green-600">Do this together</Link>
+              <Link href="/" className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 text-center">
                 Get Started
               </Link>
             </div>

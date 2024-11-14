@@ -7,6 +7,11 @@ import Footer from "@/component/Footer";
 import FastbukaFAQ from "./Faq";
 import Hero from "@/component/Hero";
 import Marketing from "./AtStake";
+import EarlyMember from "./EarlyMember";
+import FeatureCard from "./WhyUs";
+import Newsletter from "./Newsletter";
+import LearnMore from "./LearnMore";
+import Together from "./Together";
 
 // Import Satoshi fonts
 const satoshiFont = localFont({
@@ -28,8 +33,13 @@ export default function Home() {
       <main className="">
         <Header />
         <Hero />
+        <FeatureCard />
         <Marketing />
+        <EarlyMember />
+        <Together />
         <FastbukaFAQ />
+        <Newsletter />
+        <LearnMore />
         <Footer />
       </main>
     </div>

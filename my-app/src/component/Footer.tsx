@@ -92,18 +92,25 @@ export default function Footer() {
 
       {/* Mobile and Tablet View */}
       <div className="fixed md:hidden z-40 inset-x-0 bottom-0 bg-black flex justify-between items-center p-4 shadow-lg">
-        <a href="/" className="text-white text-center">
-          <FaHome className="w-8 h-8 mx-auto mb-1" />
-          <span className="block text-sm">Home</span>
-        </a>
-        <a href="/menu" className="text-white text-center">
-          <FaUtensils className="w-8 h-8 mx-auto mb-1" />
-          <span className="block text-sm">Menu</span>
-        </a>
-        <a href="/user/wallet" className="text-white text-center">
-          <FaWallet className="w-8 h-8 mx-auto mb-1" />
-          <span className="block text-sm">Wallet</span>
-        </a>
+      <div className="text-white text-center opacity-50 cursor-not-allowed">
+ <FaHome className="w-8 h-8 mx-auto mb-1" />
+ <span className="block text-sm">Home</span>
+</div>
+
+<div className="text-white text-center opacity-50 cursor-not-allowed">
+ <FaUtensils className="w-8 h-8 mx-auto mb-1" />
+ <span className="block text-sm">Menu</span>
+</div>
+
+<div className="text-white text-center opacity-50 cursor-not-allowed">
+ <FaCartArrowDown className="w-8 h-8 mx-auto mb-1" />
+ <span className="block text-sm">Cart</span>
+</div>
+
+<div className="text-white text-center opacity-50 cursor-not-allowed">
+ <FaWallet className="w-8 h-8 mx-auto mb-1" />
+ <span className="block text-sm">Wallet</span>
+</div>
         
       </div>
     </footer>
