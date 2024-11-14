@@ -44,7 +44,7 @@ const Together = () => {
           alt="Food Vendor"
           description="Are you a food or grocery vendor? Partner with Fastbuka to expand your customer base, streamline orders, and receive quick settlements for every order fulfilled"
           buttonText="Become a Partner"
-          onClick={() => window.location.href = '/partner'}
+          onClick={() => window.location.href = '/'}
         />
         
         <RoleCard
@@ -52,7 +52,7 @@ const Together = () => {
           alt="Delivery Rider"
           description="Deliver with ease and speed! With Fastbuka, riders enjoy instant payment settlements after each delivery, powered by our secure blockchain technology."
           buttonText="Become a Rider"
-          onClick={() => window.location.href = '/rider'}
+          onClick={() => window.location.href = '/'}
         />
         
         <RoleCard
@@ -60,7 +60,7 @@ const Together = () => {
           alt="Team Members"
           description="Ready to be part of a dynamic team that's transforming food and grocery delivery in Nigeria? At Fastbuka, we're building the future with cutting-edge technology and innovative solutions."
           buttonText="Explore Careers"
-          onClick={() => window.location.href = '/careers'}
+          onClick={() => window.location.href = '/'}
         />
       </div>
     </section>

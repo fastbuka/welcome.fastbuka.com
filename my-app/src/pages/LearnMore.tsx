@@ -12,7 +12,7 @@ const LearnMore = () => {
             </h2>
             <Button 
               className="bg-emerald-700 text-white hover:bg-emerald-800 rounded-full px-8 py-3"
-              onClick={() => window.location.href = '/learn-more'}
+              onClick={() => window.location.href = '/'}
             >
               Learn more
             </Button>
