@@ -5,8 +5,8 @@ import TallyFormModal from './TallyFormModal'
 
 export default function Hero() {
   return (
-    <div className="bg-white pt-[100px] min-h-screen flex flex-col lg:flex-row items-center justify-center p-8 lg:p-16">
-      <div className="lg:w-1/2 lg:pr-10 mb-8 lg:mb-0">
+    <div className="bg-white pt-[100px] min-h-screen flex flex-col md:flex-row items-center justify-center p-8 lg:p-16">
+      <div className="container mx-auto lg:w-1/2 md:pr-10 mb-8 lg:mb-0">
         <h1 className="text-4xl lg:text-5xl font-bold mb-4">
           <span className="text-green-600">Revolutionizing</span> Food &<br />
           Grocery Delivery.
@@ -21,7 +21,7 @@ export default function Hero() {
        
       </div>
       
-      <div className="md:w-1/2 md:pl-[180px] pt-[50px]">
+      <div className="md:w-1/2 lg:pl-[180px] pt-[50px]">
         <div className="animate-pulse hover:animate-bounce">
           <Image
             src="/images/iphone.png"

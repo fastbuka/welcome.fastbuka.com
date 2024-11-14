@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div>
     <Theme>
     <Script 
-  src="https://tally.so/widgets/embed.js" 
+   src="https://tally.so/widgets/embed.js" 
   strategy="lazyOnload"
 />
   <Component {...pageProps} />
