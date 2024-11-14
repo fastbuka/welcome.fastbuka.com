@@ -6,6 +6,7 @@ import { Theme } from "@radix-ui/themes";
 import Footer from "@/component/Footer";
 import FastbukaFAQ from "./Faq";
 import Hero from "@/component/Hero";
+import Marketing from "./AtStake";
 
 // Import Satoshi fonts
 const satoshiFont = localFont({
@@ -27,6 +28,7 @@ export default function Home() {
       <main className="">
         <Header />
         <Hero />
+        <Marketing />
         <FastbukaFAQ />
         <Footer />
       </main>
