@@ -32,9 +32,10 @@ const Header = () => {
           </div>
 
         <div className='hidden lg:flex items-center'>
-          <Link href="/get-started" className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700">
+          {/* <Link href="/get-started" className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700">
               Get Started
-            </Link>
+            </Link> */}
+            <TallyFormModal />
             </div>
 
           {/* Mobile Menu Button */}

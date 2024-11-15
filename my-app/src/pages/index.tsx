@@ -70,7 +70,7 @@ export default function Home() {
        
         <FastbukaFAQ />
         <Newsletter />
-        <LearnMore />
+        {/* <LearnMore /> */}
         <Footer />
       </main>
     </div>

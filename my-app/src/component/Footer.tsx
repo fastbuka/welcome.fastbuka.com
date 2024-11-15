@@ -55,7 +55,6 @@ export default function Footer() {
             <li><a href="/menu" className="hover:underline hover:text-[#0faf62]">Our Menu</a></li>
             <li><a href="#" className="hover:underline hover:text-[#0faf62]">Vendors</a></li>
             <li><a href="#" className="hover:underline hover:text-[#0faf62]">Riders</a></li>
-            <li><a href="https://afamfest.com" className="hover:underline hover:text-[#0faf62]" target="_blank">Afamfest</a></li>
           </ul>
         </div>
 
