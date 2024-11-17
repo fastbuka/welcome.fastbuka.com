@@ -5,11 +5,11 @@ import { ClipboardList, FileText, Trophy } from 'lucide-react'
 export default function EarlyMember() {
   return (
     <section id="chooseUs" className="bg-green-600 text-white min-h-screen flex flex-col items-center justify-center px-8 py-[100px]">
-      <div className="max-w-4xl  text-center">
+      <div className="max-w-4xl  text-start">
         <h1 className="text-3xl font-bold mb-4">
           Be an Early Member of FastBuka<br />and Unlock Exclusive Rewards
         </h1>
-        <p className="mb-8 text-lg">
+        <p className="mb-8 text-lg text-start">
           Join us on an exciting journey to revolutionize the way food and grocery delivery works.
           Take the opportunity to be part of something innovative and impactful while securing exclusive rewards
           along the way. Follow these simple steps to get started and enjoy perks as we prepare to launch!

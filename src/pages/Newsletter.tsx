@@ -20,7 +20,7 @@ export default function Newsletter() {
         <h1 className="text-3xl font-bold mb-4">
           Get Ahead of the Line
         </h1>
-        <p className="mb-8 text-xm">
+        <p className="mb-8 text-xm text-start">
           Be the first to enjoy fast, reliable food and grocery delivery with secure digital
           payments and exclusive rewards.
         </p>

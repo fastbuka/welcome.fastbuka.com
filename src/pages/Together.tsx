@@ -20,7 +20,7 @@ const RoleCard: React.FC<RoleCardProps> = ({ image, alt, description, buttonText
         className="object-cover"
       />
     </div>
-    <p className="text-center w-[300px] text-xm mb-6">
+    <p className="text-start w-[300px] text-xm mb-6">
       {description}
     </p>
     <Button
@@ -38,7 +38,7 @@ const Together = () => {
       <h2 className="text-4xl font-bold text-center my-12">
         Let Us Do This Together
       </h2>
-      <div className="grid justify-items-center md:flex md:justify-center gap-[200px] ">
+      <div className="grid justify-items-center md:flex md:justify-center gap-[200px]">
         <RoleCard
           image="/images/together1.png"
           alt="Food Vendor"
