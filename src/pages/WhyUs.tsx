@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent } from '@/component/card';
+import { Card, CardContent } from '../component/card';
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -24,7 +24,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, subtitle }) => (
 const WhyChooseFastBuka = () => {
   return (
     <section className="py-16 bg-green-50">
-      <div className=" px-4">
+      <div className="md:mx-[240px] px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Why Choose FastBuka?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <FeatureCard
