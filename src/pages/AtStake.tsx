@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 export default function Marketing() {
   return (
-    <div className="bg-white min-h-screen md:mx-[200px] flex flex-col lg:flex-row items-center justify-center px-8 py-[100px] lg:p-16">
-      <div className="lg:w-1/2 lg:pr-12 mb-8 lg:mb-0">
+    <div className="bg-white min-h-screen flex flex-col lg:flex-row items-center justify-center px-[20px] py-[100px]">
+      <div className=" lg:pr-12 mb-8 lg:mb-0">
         <h1 className="text-3xl lg:text-4xl font-bold mb-4">
           What&apos;s at Stake if You Miss Out?
         </h1>
@@ -40,7 +40,7 @@ export default function Marketing() {
         </Button>
         </Link>
       </div>
-      <div className="lg:w-1/2 relative mt-[80px] md:pl-[280px]">
+      <div className="relative mt-[80px] md:pl-[280px]">
         <div className="w-[300px] h-[600px]  mx-auto animate-pulse hover:animate-bounce">
           <Image
             src="/images/iphonestake.png"
