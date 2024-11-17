@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Button } from '@/component/button';
+import { Button } from '../component/button';
 
 interface RoleCardProps {
   image: string;
@@ -34,7 +34,7 @@ const RoleCard: React.FC<RoleCardProps> = ({ image, alt, description, buttonText
 
 const Together = () => {
   return (
-    <section className="py-[100px] px-4">
+    <section className="py-[100px] md:mx-[200px] px-4">
       <h2 className="text-4xl font-bold text-center mb-12">
         Let Us Do This Together
       </h2>
