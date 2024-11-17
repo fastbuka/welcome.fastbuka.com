@@ -184,7 +184,7 @@ export default function Footer() {
       {/* Mobile and Tablet View */}
       <div className="fixed md:hidden z-40 inset-x-0 bottom-0 bg-black p-4 shadow-lg">
       <p className="text-center pt-[25px] pb-[20px]">Follow us</p>
-      <div className="flex justify-center pb-[50px] space-x-4">
+      <div className="flex justify-center space-x-4">
             {/* Social Media Icons */}
            
             <a href="#" className="bg-[#0faf62] w-8 h-8 rounded-full flex items-center justify-center">
