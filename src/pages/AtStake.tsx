@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import { Button } from '../component/botton'
 import Link from 'next/link'
-
+import TallyFormModal from '@/component/TallyFormModal'
 export default function Marketing() {
   return (
-    <div className="bg-white min-h-screen flex flex-col lg:flex-row items-center justify-center px-[20px] py-[100px]">
+    <section id="atStake" className="bg-white min-h-screen flex flex-col lg:flex-row items-center justify-center px-[20px] py-[100px]">
       <div className="lg:w-1/2 md:pr-10 mb-8 lg:mb-0">
         <h1 className="text-3xl lg:text-4xl font-bold mb-4">
           What&apos;s at Stake if You Miss Out?
@@ -34,11 +34,12 @@ export default function Marketing() {
             <span><strong className="text-green-600">Security:</strong> Your transactions are always safe and secure.</span>
           </li>
         </ul>
-         <Link href="https://tally.so/r/3y0JY0">
+         {/* <Link href="https://tally.so/r/3y0JY0">
         <Button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-full text-lg">
           Join Fastbuka Now
         </Button>
-        </Link>
+        </Link> */}
+        <TallyFormModal />
       </div>
       <div className="mt-[80px] md:pl-[220px]">
         <div className="w-[300px] h-[600px]  mx-auto animate-pulse hover:animate-bounce">
@@ -51,6 +52,6 @@ export default function Marketing() {
           />
           </div>
       </div>
-    </div>
+    </section>
   )
 }

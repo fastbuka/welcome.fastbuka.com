@@ -21,7 +21,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-black text-white py-20">
+    <footer className="bg-black text-white py-10">
       {/* Desktop and Laptop View */}
       <div className="hidden md:flex justify-between items-start mx-auto px-10">
         {/* Logo Section */}
@@ -182,7 +182,7 @@ export default function Footer() {
       
 
       {/* Mobile and Tablet View */}
-      <div className="fixed md:hidden z-40 inset-x-0 bottom-0 bg-black p-4 shadow-lg">
+      <div className="fixed md:hidden z-40 inset-x-0 bottom-0 bg-black pb-4 shadow-lg">
       <p className="text-center pt-[25px] pb-[20px]">Follow us</p>
       <div className="flex justify-center space-x-4">
             {/* Social Media Icons */}

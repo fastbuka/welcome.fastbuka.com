@@ -15,6 +15,11 @@ body {
   --default-font-family: var(--font-satoshi);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

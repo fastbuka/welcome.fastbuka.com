@@ -12,8 +12,21 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+			keyframes: {
+				bounceHorizontal: {
+				  '0%, 100%': {
+					transform: 'translateX(-25%)',
+					animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
+				  },
+				  '50%': {
+					transform: 'translateX(25%)',
+					animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+				  },
+				},
+			  },
   			animation: {
-  				bounce: 'bounce 10s infinite'
+  				bounce: 'bounce 10s infinite',
+				bounceHorizontal: 'bounceHorizontal 1s infinite',
   			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

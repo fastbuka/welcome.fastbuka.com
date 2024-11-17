@@ -8,8 +8,8 @@ interface FeatureCardProps {
 }
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, subtitle }) => (
-  <Card className="border rounded-lg p-4 text-center hover:shadow-lg transition-shadow">
-    <CardContent className="space-y-4">
+  <Card className="border rounded-lg   sm:w-[300px] h-[220px] text-center hover:shadow-lg transition-shadow">
+    <CardContent className="space-y-4 py-3">
       <div className="flex justify-center">
         <div className="w-14 h-14">
           {icon}
@@ -26,7 +26,7 @@ const WhyChooseFastBuka = () => {
     <section className="py-16 bg-green-50">
       <div className="md:px-[100px] px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Why Choose FastBuka?</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <FeatureCard
             icon={<img src="/images/shopping-cart.png" alt="Shopping Cart" className="w-full h-full" />}
             title="Cutting-Edge Convenience:"

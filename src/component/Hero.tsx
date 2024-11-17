@@ -5,7 +5,7 @@ import TallyFormModal from './TallyFormModal'
 
 export default function Hero() {
   return (
-    <div className="bg-white pt-[100px] min-h-screen flex flex-col md:flex-row items-center justify-center p-8 lg:p-16">
+    <section id="home" className="bg-white pt-[100px] min-h-screen flex flex-col md:flex-row items-center justify-center p-8 lg:p-16">
       <div className="lg:w-1/2 md:pr-10 mb-8 lg:mb-0">
         <h1 className="text-4xl lg:text-5xl font-bold mb-4">
           <span className="text-green-600">Disrupting</span> Food &<br />
@@ -33,6 +33,6 @@ export default function Hero() {
         </div>
        
       </div>
-    </div>
+    </section>
   )
 }
