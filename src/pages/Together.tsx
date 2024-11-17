@@ -12,7 +12,7 @@ interface RoleCardProps {
 
 const RoleCard: React.FC<RoleCardProps> = ({ image, alt, description, buttonText, onClick }) => (
   <div className="flex flex-col items-center max-w-sm">
-    <div className="relative w-full h-72 rounded-3xl overflow-hidden mb-6">
+    <div className="relative w-[300px] h-72 rounded-3xl overflow-hidden mb-6">
       <Image
         src={image}
         alt={alt}
@@ -20,7 +20,7 @@ const RoleCard: React.FC<RoleCardProps> = ({ image, alt, description, buttonText
         className="object-cover"
       />
     </div>
-    <p className="text-center text-lg mb-6">
+    <p className="text-center w-[300px] text-xm mb-6">
       {description}
     </p>
     <Button
@@ -34,11 +34,11 @@ const RoleCard: React.FC<RoleCardProps> = ({ image, alt, description, buttonText
 
 const Together = () => {
   return (
-    <section className="py-[100px] md:mx-[200px] px-4">
-      <h2 className="text-4xl font-bold text-center mb-12">
+    <section className="">
+      <h2 className="text-4xl font-bold text-center my-12">
         Let Us Do This Together
       </h2>
-      <div className="px-[50px] grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="grid justify-items-center sm:flex sm:justify-center space-y-[40px] sm:space-y-[40px] sm:gap-[140px]">
         <RoleCard
           image="/images/together1.png"
           alt="Food Vendor"

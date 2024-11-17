@@ -21,7 +21,7 @@ export default function Hero() {
        
       </div>
       
-      <div className=" lg:pl-[180px] pt-[50px]">
+      <div className=" lg:pl-[220px] pt-[50px]">
         <div className="animate-pulse hover:animate-bounce">
           <Image
             src="/images/iphone.png"

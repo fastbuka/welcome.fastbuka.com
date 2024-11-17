@@ -5,7 +5,7 @@ import { ClipboardList, FileText, Trophy } from 'lucide-react'
 export default function EarlyMember() {
   return (
     <div className="bg-green-600 text-white min-h-screen flex flex-col items-center justify-center px-8 py-[100px]">
-      <div className="max-w-4xl mx-auto text-center">
+      <div className="max-w-4xl text-center">
         <h1 className="text-3xl font-bold mb-4">
           Be an Early Member of FastBuka<br />and Unlock Exclusive Rewards
         </h1>
@@ -15,7 +15,7 @@ export default function EarlyMember() {
           along the way. Follow these simple steps to get started and enjoy perks as we prepare to launch!
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-9  mb-8">
           <StepCard
             step={1}
             title="Join the Waiting List"
