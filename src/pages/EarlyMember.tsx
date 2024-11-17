@@ -1,5 +1,5 @@
-import { Button } from "@/component/button"
-import { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent } from "@/component/card"
+import { Button } from "../component/button"
+import { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent } from "../component/card"
 import { ClipboardList, FileText, Trophy } from 'lucide-react'
 
 export default function EarlyMember() {
