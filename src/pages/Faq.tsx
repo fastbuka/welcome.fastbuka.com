@@ -1,8 +1,8 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/component/accordion"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../component/accordion"
   
   export default function FastbukaFAQ() {
     return (
-      <div className="container mx-auto px-[20px] sm:px-[150px] py-[100px]">
+      <div className="container mx-auto px-[20px] sm:px-[200px] py-[100px]">
         <h2 className="text-3xl font-bold text-center mb-6">Frequently Asked Questions ?</h2>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
