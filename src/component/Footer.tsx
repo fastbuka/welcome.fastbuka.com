@@ -205,7 +205,7 @@ export default function Footer() {
           </div>
 
 
-      <div className="flex justify-between items-center ">
+      {/* <div className="flex justify-between items-center ">
     
         <div className="text-white text-center opacity-50 cursor-not-allowed">
           <FaHome className="w-8 h-8 mx-auto mb-1" />
@@ -220,7 +220,7 @@ export default function Footer() {
           <span className="block text-sm">Wallet</span>
         </div>
 
-      </div>
+      </div> */}
       </div>
     </footer>
   );
