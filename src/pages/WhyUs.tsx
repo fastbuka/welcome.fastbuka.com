@@ -35,7 +35,7 @@ const WhyChooseFastBuka = () => {
           <FeatureCard
             icon={<img src="/images/shield.png" alt="Digital Payments" className="w-full h-full" />}
             title="Seamless Digital Payments:"
-            subtitle="Pay securely via USDC, XLM, or local banks."
+            subtitle="Pay securely via USDC, or local banks."
           />
           <FeatureCard
             icon={<img src="/images/giftbox.png" alt="Rewards" className="w-full h-full" />}
