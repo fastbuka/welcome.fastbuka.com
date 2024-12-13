@@ -25,7 +25,7 @@ const TallyFormModal = () => {
               ✕
             </button>
             <iframe 
-              src="https://tally.so/embed/3y0JY0?hideTitle=1&transparentBackground=1"
+              src="https://tally.so/r/w4PAJo?transparentBackground=1"
               width="100%" 
               height="100%" 
               style={{ 
